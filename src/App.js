@@ -7,12 +7,15 @@ import Contact from './components/Contact'
 import Cart from './components/Cart'
 import ErrorPage from './components/ErrorPage'
 import SingleProduct from './components/SingleProduct'
+import Navbar from './components/Navbar';
 
 
 function App() {
   return (
+    <>
     
       <Router>
+        <Navbar />
         <Routes>
           <Route path="/" element = {<Home />}/>
           <Route path="/about" element = {<About />}/>
@@ -23,7 +26,7 @@ function App() {
           <Route path="/singleproduct/:id" element = {<SingleProduct />}/>
         </Routes>
       </Router>
-    
+      </>
   )
 }
 
