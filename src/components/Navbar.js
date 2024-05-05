@@ -38,7 +38,7 @@ function Navbar() {
                         <div class="inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                             <NavLink to='/cart' className=""><FiShoppingCart className='text-white' style={{fontSize: '1.5rem'}}/></NavLink>
                             <p className='text-white text-sm rounded-full px-1 absolute ml-5 mb-5 bg-slate-500'>10</p>
-                        </div>
+                        </div> 
                     </div>
                 </div>
             </nav>
