@@ -2,6 +2,7 @@ import React from 'react'
 import HeaderSection from '../common/HeroSection'
 import Services from '../common/Services'
 import Trusted from '../common/Trusted'
+import FeatureProduct from './FeatureProduct'
 
 function Home() {
 
@@ -12,9 +13,10 @@ function Home() {
   return (
     <div>
       <HeaderSection myData={data}/>
+      <FeatureProduct />
       <Services />
       <Trusted />
-    </div>
+    </div> 
   )
 }
 
