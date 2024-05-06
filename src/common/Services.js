@@ -17,7 +17,7 @@ function Services() {
                         <p className='flex justify-center font-light'>Super Fast and Free Delivery</p>
                     </div>
                 </div>
-                <div className='grid justify-center md:gap-8'>
+                <div className='grid justify-center md:gap-14'>
                     <div className='bg-gradient-to-t w-full hover:from-blue-300 from-blue-200 to-blue-50 h-20 grid items-center rounded-lg'>
                         <div className='my-2 px-10 flex items-center' >
                             <MdSecurity className='text-blue-600 text-4xl bg-white p-2 rounded-3xl mr-2' />

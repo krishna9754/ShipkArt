@@ -28,6 +28,12 @@
   color: #61dafb;
 }
 
+.ImageWidth{
+  width: 12rem;
+  height: 8rem;
+  font-weight: 300;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

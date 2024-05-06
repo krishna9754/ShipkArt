@@ -8,6 +8,7 @@ import Cart from './components/Cart'
 import ErrorPage from './components/ErrorPage'
 import SingleProduct from './components/SingleProduct'
 import Navbar from './common/Navbar';
+import Fotter from './common/Fotter';
 
 
 function App() {
@@ -22,9 +23,10 @@ function App() {
           <Route path="/products" element = {<Products />}/>
           <Route path="/contact" element = {<Contact />}/>
           <Route path="/cart" element = {<Cart />}/>
-          <Route path="/errorpage" element = {<ErrorPage />}/>
+          <Route path="*" element = {<ErrorPage />}/>
           <Route path="/singleproduct/:id" element = {<SingleProduct />}/>
         </Routes>
+        <Fotter />
       </Router>
       </>
   )
