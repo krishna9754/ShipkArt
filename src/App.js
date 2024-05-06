@@ -7,7 +7,7 @@ import Contact from './components/Contact'
 import Cart from './components/Cart'
 import ErrorPage from './components/ErrorPage'
 import SingleProduct from './components/SingleProduct'
-import Navbar from './components/Navbar';
+import Navbar from './common/Navbar';
 
 
 function App() {

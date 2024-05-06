@@ -1,10 +1,19 @@
 import React from 'react'
-// import Navbar from './Navbar'
+import HeaderSection from '../common/HeroSection'
+import Services from '../common/Services'
+import Trusted from '../common/Trusted'
 
 function Home() {
+
+  const data = {
+    name : "Store"
+  }
+
   return (
     <div>
-     HOME
+      <HeaderSection myData={data}/>
+      <Services />
+      <Trusted />
     </div>
   )
 }
