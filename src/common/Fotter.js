@@ -4,7 +4,7 @@ import { SlSocialYoutube, SlSocialInstagram, SlSocialLinkedin } from "react-icon
 
 function Fotter() {
     return (
-        <div className='mt-12 bg-black rounded-t-lg'>
+        <div className='mt-12 bg-black rounded-t-lg w-full'>
             <div className='flex md:justify-center from-black to-white ml-4'>
                 <div className='md:flex md:gap-20 lg:gap-48 xl:gap-64 items-center px-10 py-4 rounded-xl m-2 bg-white'>
                     <div className='items-start md:mb-0 mb-5'>
